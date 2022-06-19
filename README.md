@@ -10,8 +10,11 @@ Si mi explicación es confusa o tiene _huecos_, no es asunto del tema, es que ta
 
 Los invito a este viaje de aprendizaje. Pueden corregirme cuando esté equivocado (seguro lo estaré) y mejor aún, pueden proponer nuevas explicaciones o analogías, siempre hay lugar para la mejora.
 
-## Básico
+## Introducción
 * [¿Qué es JavaScript?]
+* [JavaScript vs ECMAScript]
+
+## Básico
 * [Variables](https://github.com/vcrminero/javascript/blob/main/basico/variables.md)
 * [Tipos de datos](https://github.com/vcrminero/javascript/blob/main/basico/Tipo%20de%20datos.md)
     * [Strings]
