@@ -1,6 +1,10 @@
 # JavaScript
 ¿Aprender a programar en JavaScript puede ser sencillo?
 
+Puede que la respuesta sea un NO.
+
+Pero quiero asumir el reto, de simplificar un tema tan complejo como son los fundamentos de la programación y en un lenguaje t
+
 Un glosario de conceptos de JavaScript.
 
 ## Básico
