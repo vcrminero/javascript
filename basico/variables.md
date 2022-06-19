@@ -1,20 +1,19 @@
-# Variables
+# Variables y Constantes
 
 ## let
 ```javascript
-let miVariable = 123
-```
-
-## const
-
-```javascript
-let miConstante = 123
+let miVariable = 123;
 ```
 
 ## var
 ```javascript
 var miVariable = 123;
 ````
+
+## const
+```javascript
+let miConstante = 123;
+```
 
 # let vs var
 _let_ fue introducida en ES6 y es la forma preferente para crear variables.
