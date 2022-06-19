@@ -1,11 +1,16 @@
-# JavaScript
-¿Aprender a programar en JavaScript puede ser sencillo?
+# JS para todos
+JavaScript explicado con el _Método Feynman_:
 
-Puede que la respuesta sea un NO.
+- ESTUDIAR por mi cuenta los conceptos
+- SIMPLIFICAR estos conceptos en un lenguaje accesible
+- ENSEÑAR como si se los compartiera a cualquier persona (con o sin experiencia en el tema)
+- REPETIR el proceso
 
-Pero quiero asumir el reto, de simplificar un tema tan complejo como son los fundamentos de la programación y en un lenguaje t
+Si mi explicación es confusa o tiene _gaps_, no es asunto del tema, es que tal vez aún no lo comprendo yo mismo.
 
-Un glosario de conceptos de JavaScript.
+Los invito a este viaje de aprendizaje. Pueden corregirme cuando esté equivocado (seguro lo estaré) y mejor aún, pueden proponer nuevas explicaciones o analogías, siempre hay lugar para la mejora.
+
+Glosario:
 
 ## Básico
 * [Variables](https://github.com/vcrminero/javascript/blob/main/basico/variables.md)
