@@ -1,6 +1,6 @@
 # Variables
 Una variable es una referencia a un valor.
-> Debes imaginar a las variables como tentáculos, en lugar de cajas. No _contienen_ valores, los captan. Dos variables pueden referirse al mismo valor. Un programa puede acceder sólo a los valores a los que todavía tiene una referencia. Cuando necesita recordar algo, le crece un tentáculo para aferrarse a él o le vuelve a unir uno de sus tentáculos existentes. -Marijn Haverbeke (Eloquent JavaScript).
+> Debes imaginar a las variables como tentáculos, en lugar de cajas. No _contienen_ valores, los referencian. Dos variables pueden referirse al mismo valor. Un programa puede acceder sólo a los valores a los que todavía tiene una referencia. Cuando necesita recordar algo, le crece un tentáculo para aferrarse a él o le vuelve a unir uno de sus tentáculos existentes. -Marijn Haverbeke (Eloquent JavaScript).
 > 
 ## let
 ```javascript
