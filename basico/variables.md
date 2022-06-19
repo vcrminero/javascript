@@ -1,18 +1,33 @@
-# Variables y Constantes
-
+# Variables
+Una variable es una referencia a un valor.
+> Debes imaginar a las variables como tentáculos, en lugar de cajas. No _contienen_ valores, los captan. Dos variables pueden referirse al mismo valor. Un programa puede acceder sólo a los valores a los que todavía tiene una referencia. Cuando necesita recordar algo, le crece un tentáculo para aferrarse a él o le vuelve a unir uno de sus tentáculos existentes. -Marijn Haverbeke (Eloquent JavaScript).
+> 
 ## let
 ```javascript
-let miVariable = 123;
+let edad = 30;
 ```
 
 ## var
 ```javascript
-var miVariable = 123;
+var edad = 30;
 ````
 
 ## const
 ```javascript
-let miConstante = 123;
+let nombre = "Victor";
+```
+
+El valor de una variable, puede cambiar.
+
+```javascript
+let edad = 30; // "edad" es igual a 30
+edad = 31; // "edad" es igual a 31
+```
+
+El valor de una constante, no puede cambiar
+```javascript
+const edad = 30; // "edad" es igual a 30
+edad = 31; // error ("edad" sigue siendo 30)
 ```
 
 # let vs var
