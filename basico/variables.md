@@ -17,6 +17,7 @@ var edad = 30;
 let nombre = "Victor";
 ```
 
+## Características
 El valor de una variable, puede cambiar.
 
 ```javascript
@@ -28,6 +29,16 @@ El valor de una constante, no puede cambiar
 ```javascript
 const edad = 30; // "edad" es igual a 30
 edad = 31; // error ("edad" sigue siendo 30)
+```
+
+Consideraciones para nombrar variables:
+```javascript
+// Usar camelCase
+let miVariable = 123;
+
+// El nombre puede llevar un número (pero no iniciar con un número)
+let variable1 = 123; // Válido
+let 1variable = 123; // ERROR
 ```
 
 # let vs var
