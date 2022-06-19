@@ -6,13 +6,12 @@ JavaScript explicado con el _Método Feynman_:
 - ENSEÑAR como si se los compartiera a cualquier persona (con o sin experiencia en el tema)
 - REPETIR el proceso
 
-Si mi explicación es confusa o tiene _gaps_, no es asunto del tema, es que tal vez aún no lo comprendo yo mismo.
+Si mi explicación es confusa o tiene _huecos_, no es asunto del tema, es que tal vez aún no lo comprendo yo mismo.
 
 Los invito a este viaje de aprendizaje. Pueden corregirme cuando esté equivocado (seguro lo estaré) y mejor aún, pueden proponer nuevas explicaciones o analogías, siempre hay lugar para la mejora.
 
-Glosario:
-
 ## Básico
+* [¿Qué es JavaScript?]
 * [Variables](https://github.com/vcrminero/javascript/blob/main/basico/variables.md)
 * [Tipos de datos](https://github.com/vcrminero/javascript/blob/main/basico/Tipo%20de%20datos.md)
     * [Strings]
