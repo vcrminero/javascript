@@ -13,14 +13,14 @@ variable = true;  // ahora un boolean
 ## En JS hay 9 tipos de datos
 6 tipos primitivos
 
-|Tipo||
-|---|---|
-|Undefined|typeof instance === "undefined"|
-|Boolean|typeof instance === "boolean"|
-|Number|typeof instance === "number"|
-|String|typeof instance === "string"|
-|BigInt|typeof instance === "bigint"|
-|Symbol|typeof instance === "symbol"|
+|Tipo|| |
+|---|---|---|
+|String|typeof instance === "string"| "Hola mundo" |
+|Number|typeof instance === "number"| 1, 2, 3.14 |
+|BigInt|typeof instance === "bigint"| 10n |
+|Boolean|typeof instance === "boolean"| true / false |
+|Undefined|typeof instance === "undefined"| Explícitamente declarar una variable sin valor |
+|Symbol|typeof instance === "symbol"| Usado con objetos |
 
 Y por otro lado están:
 
@@ -29,52 +29,7 @@ typeof instance === "object"
 
 _object_<br>
 typeof instance === "object"
+(Como Arrays, Dates, Literals, etc)
 
 _function_<br>
 typeof instance === "function"
-
-## Datos primitivos
-Son datos que no son un objeto y no tienen métodos.
-
-Todos los primitivos son inmutables, es decir, no se pueden modificar.
-
-Sí se puede reasignar un nuevo valor a la variable, pero el valor existente no se puede cambiar de la misma forma en que se pueden modificar los objetos, los arreglos y las funciones.
-
-Ejemplo:
-
-```javascript
-// El uso de un método string no modifica el string
-var saludo = "hola";
-console.log(saludo);               // hola
-saludo.toUpperCase();
-console.log(saludo);               // hola
-
-// El uso de un método de array sí cambia el array
-var arreglo = [];
-console.log(arreglo);               // []
-arreglo.push("uno");
-console.log(arreglo);               // ["uno"]
-
-// La asignación le da al primitivo un nuevo valor (no lo muta)
-saludo = saludo.toUpperCase();       // HOLA
-
-```
-
-## undefined vs null
-_undefined_ indica que una variable ha sido declarada, pero no se le asignó valor.
-```javascript
-let a;
-
-console.log(a); //undefined
-```
-
-_null_ es un objeto y puede ser asignado a una variable como representación de "sin valor"
-
-Por ejemplo, cuando no sabes el valor le puede asignar _null_ a una variable:
-
-```javascript
-var a = null;
-
-// Después en el programa
-a = 123;
-```
